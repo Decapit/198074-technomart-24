@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Олег Тихий](https://up.htmlacademy.ru/htmlcss/24/user/198074).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Кошара](https://htmlacademy.ru/profile/rednaxxxela).
 
 ---
 
