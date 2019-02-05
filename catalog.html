@@ -7,7 +7,9 @@
   <body>
     <header class="main-header">
       <a class="main-technomart-logo" href="index.html">Техномарт</a>
-      <span>Поиск</span>
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+        <input type="text" name="search" value="" placeholder="Поиск:">
+      </form>
       <nav class="header-navigation">
         <ul class="header-product-navigation">
           <li><a href="bookmarks.html">Закладки</a></li>
@@ -49,7 +51,45 @@
       <h2 class="order-title">Перфораторы</h2>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-          <!-- Место для фильтра -->
+        <form class="filters" method="post" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Производители:</legend>
+            <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="bosch" checked id="filter-bosch">
+                <label for="filter-bosch">Bosch</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="interscol" id="filter-interscol">
+                <label for="filter-interscol">Интерскол</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="makita" checked id="filter-makita">
+                <label for="filter-makita">Makita</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="dewalt" id="filter-dewalt">
+                <label for="filter-dewalt">Dewalt</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="hitachi" id="filter-hitachi">
+                <label for="filter-hitachi">Hitachi</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Питание:</legend>
+            <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="accumulator" checked id="filter-accumulator">
+                <label for="filter-accumulator">Аккамуляторные</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="wired" id="filter-wired">
+                <label for="filter-wired">Сетевые</label>
+              </li>
+          </fieldset>
+          <button class="button filter-button" type="submit">Показать</button>
       </section>
       <section class="catalog">
         <ul class="catalog-list">
@@ -106,6 +146,12 @@
           </li>
         </ul>
       </section>
+      <section class="modal modal-order" hidden>
+        <img src="img/ok.jpg" width="66" height="66">
+        <p>Товар добавлен в корзину!</p>
+        <a href="order.html">Офромить заказ</a>
+        <button class="buttom" type="button">Продолжить покупки</button>
+        <button class="modal-close" type="button">Закрыть</button>
     </main>
     <footer class="main-footer">
       <a class="footer-technomart-logo" href="index.html">Техномарт</a>

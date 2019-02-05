@@ -7,7 +7,9 @@
   <body>
     <header class="main-header">
       <a class="logo">Техномарт</a>
-      <span>Поиск</span>
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+        <input type="text" name="search" value="" placeholder="Поиск:">
+      </form>
       <nav class="header-navigation">
         <ul class="header-product-navigation">
           <li><a href="bookmarks.html">Закладки</a></li>
@@ -54,6 +56,27 @@
         <h2>Контакты</h2>
         <p>Вы можете забрать товар сами,заехав в наш офис:</p>
         <img src="img/map.jpg" width="300" height="158" alt="Как проехать">
+        <section class="modal modal-map" hidden>
+          <img src="img/map-full.jpg"  width="940" height="440" alt="Как проехать">
+          <button class="modal-close" type="button">Закрыть</button>
+        </section>
+        <section class="modal modal-feedback" hidden>
+          <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+            <p class="feedback-item">
+              <label for="feedback-name">Ваше имя:</label>
+              <input id="feedback-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+            </p>
+            <p class="feedbavk-item">
+              <label for="feedback-email">Ваш e-mail:</label>
+              <input id="feedback-email" type="text" name="email" value="" placeholder="email@example.com">
+            </p>
+            <p class="feedback-item">
+              <label for="feedback-letter">Текст письма:</label>
+              <input id="feedback-letter" type="text" name="letter" value="" placeholder="В свободной форме">
+            </p>
+            <button class="button" type="submit">Отправить</button>
+          </form>
+        </section>
         <a class="button" href="map.html">Заблудились? Напишите нам!</a>
       </section>
     </main>
