@@ -9,6 +9,7 @@
       <a class="logo">Техномарт</a>
       <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
         <input type="text" name="search" value="" placeholder="Поиск:">
+        <button class="button visually-hidden"  type="submit">Поиск</button>
       </form>
       <nav class="header-navigation">
         <ul class="header-product-navigation">
@@ -56,11 +57,11 @@
         <h2>Контакты</h2>
         <p>Вы можете забрать товар сами,заехав в наш офис:</p>
         <img src="img/map.jpg" width="300" height="158" alt="Как проехать">
-        <section class="modal modal-map" hidden>
+        <section class="modal modal-map visually-hidden">
           <img src="img/map-full.jpg"  width="940" height="440" alt="Как проехать">
           <button class="modal-close" type="button">Закрыть</button>
         </section>
-        <section class="modal modal-feedback" hidden>
+        <section class="modal modal-feedback visually-hidden">
           <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
             <p class="feedback-item">
               <label for="feedback-name">Ваше имя:</label>
@@ -68,11 +69,11 @@
             </p>
             <p class="feedbavk-item">
               <label for="feedback-email">Ваш e-mail:</label>
-              <input id="feedback-email" type="text" name="email" value="" placeholder="email@example.com">
+              <input id="feedback-email" type="email" name="email" value="" placeholder="email@example.com">
             </p>
             <p class="feedback-item">
               <label for="feedback-letter">Текст письма:</label>
-              <input id="feedback-letter" type="text" name="letter" value="" placeholder="В свободной форме">
+              <input id="feedback-letter" type="textarea" name="letter" value="" placeholder="В свободной форме">
             </p>
             <button class="button" type="submit">Отправить</button>
           </form>
