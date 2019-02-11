@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+
+  font-family:  "Cuprum", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+
+
+  background-color: #f3f7f9;
+ }
+
+ a {
+  text-decoration: none;
+}
+
+.header-top {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #293449;
+}
+.description {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 23px;
+  color: #ee3643;
+}
+.main-phone {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+}
+
+.main-feedback {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+.main-navigation-login a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  background-color: : #ffffff
+}
+
+.header-product-navigation,
+.site-navigation {
+  list-style: none;
+}
+
+.header-product-navigation a,
+.site-navigation a {
+  color: #ffffff;
+}
+.site-navigation {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+
+  background-color: #32425c;
+}
+ /* Скрыл все обьекты которые не относятся к соновному заданию  и попап с картой */
+
+ .services,
+ .gallery,
+ .popular-goods,
+ .logo,
+ .services,
+ .modal-map,
+ .modal-feedback,
+ .sorting,
+ .modal-order,
+ .info,
+ .pages {
+   display: none;
+ }
+
+ .elements-fone {
+  background-color: #ffffff;
+ }
+
+.about-company h2,
+.main-contacts h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.about-company p,
+.main-contacts p {
+  font-size: 13px;
+  line-height: 12px;
+  color: #000000;
+}
+
+.delivery-service {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+.delivery-service li {
+  list-style: none;
+}
+.about-company a,
+.main-contacts a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.main-footer {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #32425c;
+}
+
+.main-footer a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer-navigation a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer-navigation-order a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
+}
+
+.footer-navigation li,
+.footer-navigation-order li,
+.footer-bottom li  {
+  list-style: none;
+}
+
+.footer-bottom {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #293449;
+}
+
+.footer-bottom a {
+  color: #ffd180;
+}
+.logout {
+  background-color: #ffffff;
+}
+.logout a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+
+}
+
+.main-navigation-login ins {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+}
+.breadcrumbs {
+  font-family: "PT Sans", Arial, sans-serif;
+  background-color: #ffffff;
+}
+.breadcrumbs a {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+
+  text-transform: uppercase;
+}
+
+.filters {
+  background-color: #ffffff;
+}
+
+.filters legend {
+  font-size: 17px;
+  line-height: 30px;
+  color: #000000;
+}
+.filters ul {
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+.catalog {
+  background-color: #ffffff;
+}
+
+.catalog h3 {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.catalog del {
+  font-size: 17px;
+  line-height: 18px;
+  color: #999999;
+}
+
+.catalog p {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #ee3643;
+}

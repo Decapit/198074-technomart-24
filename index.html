@@ -3,10 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
-      <a class="logo">Техномарт</a>
+      <div class="header-top">
+      <img src="img/logo.png" width="110" height="18" alt="Логотип магазина Техномарт"></a>
       <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
         <input type="text" name="search" value="" placeholder="Поиск:">
         <button class="button visually-hidden"  type="submit">Поиск</button>
@@ -18,6 +23,7 @@
           <li><a href="order.html">Оформить заказ</a></li>
         </ul>
       </nav>
+      </div>
       <section>
         <p class="description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
         <a class="main-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
@@ -160,6 +166,7 @@
         </p>
         <a href="#">Отправить заявку</a>
       </section>
+      <div class="elements-fone">
       <section class="about-company">
         <h2>Компания "Техномарт"</h2>
         <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
@@ -198,9 +205,10 @@
         </section>
         <a class="button" href="map.html">Заблудились? Напишите нам!</a>
       </section>
+    </div>
     </main>
     <footer class="main-footer">
-      <a class="footer-technomart-logo">Техномарт</a>
+      <img src="img/logo-footer.png" width="138" height="23" alt="Логотип магазина Техномарт"></a>
       <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
         <a href="tel:+78125550555">+7 (812) 555-05-55</a>
       </p>
@@ -217,6 +225,7 @@
         <li><a href="tool.html">Инструмент</a></li>
         <li><a href="offers.html">Спецпредложения</a></li>
       </ul>
+      <div class="footer-bottom">
       <ul class="footer-social">
         <li><a class="social-button" href="#">Вконтакте</a></li>
         <li><a class="social-button" href="#">Фейсбук</a></li>
@@ -228,6 +237,7 @@
       <p>Разработано —
         <a class="Feedback" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
       </p>
+      </div>
     </footer>
   </body>
 </html>
