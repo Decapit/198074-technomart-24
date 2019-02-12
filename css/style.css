@@ -15,14 +15,14 @@
   font-family: 'Cuprum Bold';
   src: url('cuprumbold.woff2') format('woff2'),
        url('cuprumbold.woff') format('woff');
-  font-size: 700;
+  font-weight: bold;
 }
 
 @font-face {
   font-family: 'Cuprum Bold Italic';
   src: url('cuprumbolditalic.woff2') format('woff2'),
        url('cuprumbolditalic.woff') format('woff');
-  font-size: 700;
+  font-weight: bold;
   font-style: italic;
 }
 
@@ -36,7 +36,7 @@
   font-family: 'PT Sans Bold';
   src: url('ptsansbold.woff2') format('woff2'),
        url('ptsansbold.woff') format('woff');
-  font-size: 700
+  font-weight: bold;
 }
 
 body {
