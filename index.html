@@ -3,48 +3,56 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <div class="header-top">
-      <img src="img/logo.png" width="110" height="18" alt="Логотип магазина Техномарт"></a>
-      <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
-        <input type="text" name="search" value="" placeholder="Поиск:">
-        <button class="button visually-hidden"  type="submit">Поиск</button>
-      </form>
-      <nav class="header-navigation">
-        <ul class="header-product-navigation">
-          <li><a href="bookmarks.html">Закладки</a></li>
-          <li><a href="cart.html">Корзина</a></li>
-          <li><a href="order.html">Оформить заказ</a></li>
-        </ul>
-      </nav>
+        <div class="container">
+          <img src="img/logo.png" width="110" height="18" alt="Логотип магазина Техномарт"></a>
+          <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+            <input type="text" name="search" value="" placeholder="Поиск:">
+            <button class="button visually-hidden"  type="submit">Поиск</button>
+          </form>
+          <nav class="header-navigation">
+            <ul class="header-product-navigation">
+              <li><a href="bookmarks.html">Закладки</a></li>
+              <li><a href="cart.html">Корзина</a></li>
+              <li><a href="order.html">Оформить заказ</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
       <section>
-        <p class="description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-        <a class="main-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
-        <p class="main-feedback">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-      </section>
-      <nav class="main-navigation">
-        <ul class="main-navigation-login">
-          <li><a class="button" href="login.html">Войти</a></li>
-          <li><a class="button" href="reg.html">Регистрация</a></li>
-        </ul>
+        <div class="header-middle">
+          <div class="container">
+            <p class="description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+            <div class="wraps-column">
+              <a class="main-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
+              <p class="main-feedback">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            </div>
+            <nav class="main-navigation">
+              <ul class="main-navigation-login">
+                <li><a class="button" href="login.html">Войти</a></li>
+                <li><a class="button" href="reg.html">Регистрация</a></li>
+              </ul>
+          </div>
+        </div>
       </nav>
+      </section>
       <nav class="main-site-navigation">
-        <ul class="site-navigation">
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="company.html">Компания</a></li>
-          <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="offers.html">Спецпредложения</a></li>
-          <li><a href="delivery.html">Доставка</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+        <div class="header-bottom">
+          <ul class="site-navigation">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="company.html">Компания</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="offers.html">Спецпредложения</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main class="container">
