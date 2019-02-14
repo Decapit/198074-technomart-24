@@ -1,25 +1,25 @@
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum";
   src: url('cuprum.woff2') format('woff2'),
        url('cuprum.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum";
   src: url('cuprumitalic.woff2') format('woff2'),
        url('cuprumitalic.woff') format('woff');
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum";
   src: url('cuprumbold.woff2') format('woff2'),
        url('cuprumbold.woff') format('woff');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Cuprum';
+  font-family: "Cuprum";
   src: url('cuprumbolditalic.woff2') format('woff2'),
        url('cuprumbolditalic.woff') format('woff');
   font-weight: bold;
@@ -27,13 +27,13 @@
 }
 
 @font-face {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   src: url('ptsans.woff2') format('woff2'),
        url('ptsans.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'PT Sans';
+  font-family: "PT Sans";
   src: url('ptsansbold.woff2') format('woff2'),
        url('ptsansbold.woff') format('woff');
   font-weight: bold;
@@ -53,15 +53,15 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .header-top .container {
   display: flex;
   justify-content: space-between;
-}
-
-.container {
-  width: 940px;
-  margin: 0;
-  padding: 0 10px;
 }
 
 .main-header {
@@ -192,6 +192,24 @@ a {
 
 .elements-fone {
   background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 90px;
+}
+
+
+.about-company {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 540px
+}
+
+.main-contacts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 300px;
 }
 
 .about-company h2,
@@ -245,10 +263,48 @@ a {
   font-family: "PT Sans" Arial, sans-serif;
 }
 
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 220px
+}
+
+.footer-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 550px
+}
+
 .footer-navigation a {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
+}
+
+.footer-middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-adress {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 380px
+}
+
+.footer-navigation-order {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 540px
 }
 
 .footer-navigation-order a {
@@ -263,17 +319,46 @@ a {
   list-style: none;
 }
 
-.footer-bottom {
+.footer-background {
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
   background-color: #293449;
+
 }
 
-.footer-bottom a {
+.footer-background a {
   color: #ffd180;
 }
 
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.low p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 230px;
+}
+
+.footer-social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 150px
+}
+
+.footer-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 300px
+}
 .logout {
   background-color: #ffffff;
 }
@@ -311,6 +396,25 @@ a {
 
 .filters {
   background-color: #ffffff;
+}
+
+.filters-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 220px
+}
+
+.catalog {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 700px
+}
+
+.catalog-column {
+  display: flex;
+  justify-content: space-between;
 }
 
 .filters legend {
