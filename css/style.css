@@ -46,7 +46,6 @@ body {
   line-height: 24px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #f3f7f9;
  }
 
 a {
@@ -65,7 +64,8 @@ a {
 }
 
 .main-header {
- margin-bottom: 60px;
+  padding-bottom: 60px;
+  background-color: #f3f7f9;
 }
 
 .main-technomart-logo {
@@ -81,10 +81,19 @@ a {
 }
 
 .header-navigation {
+  display: flex;
+  justify-content: space-between;
   width: 460px;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.header-product-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .header-top {
@@ -98,13 +107,7 @@ a {
 }
 .header-middle {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.header-middle .container {
- display: flex;
- justify-content: space-between;
+  justify-content: space-between;
 }
 
 .description {
@@ -134,13 +137,15 @@ a {
   color: #32425c;
 }
 
-.main-navigation-login {
+.main-login {
+  display: flex;
+  justify-content: space-between;
   width: 300px;
   margin: 0;
   padding: 0;
 }
 
-.main-navigation-login a {
+.main-login a {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -157,7 +162,10 @@ a {
   width: 940px;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
+
 .header-product-navigation,
 .site-navigation {
   list-style: none;
@@ -222,7 +230,7 @@ a {
 
 .about-company p,
 .main-contacts p {
-  font-family: "PT Sans" Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 12px;
   color: #000000;
@@ -260,7 +268,7 @@ a {
 }
 
 .main-catalog main {
-  font-family: "PT Sans" Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .footer-top {
@@ -276,6 +284,8 @@ a {
 }
 
 .footer-navigation {
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -301,6 +311,8 @@ a {
 }
 
 .footer-navigation-order {
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -336,17 +348,31 @@ a {
   justify-content: space-between;
 }
 
-.low p {
+.footer-social a {
+  font-size: 8px;
+  line-height: 18px;
+}
+
+.order-title {
+  background-color: #f3f7f9;  
+}
+
+.law {
+  margin: 0;
+  padding: 0;
+}
+
+.law a{
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
-  margin: 0;
-  padding: 0;
   list-style: none;
   width: 230px;
 }
 
 .footer-social {
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -354,11 +380,17 @@ a {
 }
 
 .footer-links {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   width: 300px
 }
+
+.footer-links p {
+  margin: 0;
+  padding: 0;
+}
+
 .logout {
   background-color: #ffffff;
 }
@@ -376,6 +408,8 @@ a {
 }
 
 .breadcrumbs {
+  display: flex;
+  justify-content: space-between;
   font-family: "PT Sans", Arial, sans-serif;
   background-color: #ffffff;
 }
@@ -403,6 +437,10 @@ a {
   padding: 0;
   list-style: none;
   width: 220px
+}
+
+.filters-item li {
+  list-style: none;
 }
 
 .catalog {
